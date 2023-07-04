@@ -50,6 +50,8 @@
     <Compile Include="Exercise 43.cs" />
     <Compile Include="Exercise 68.cs" />
     <Compile Include="Indexer.cs" />
+    <Compile Include="InheritanceWithContstructor1.cs" />
+    <Compile Include="InheritanceWithContstructor2.cs" />
     <Compile Include="Math\Calculator.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />

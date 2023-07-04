@@ -124,13 +124,16 @@ namespace netFramework
 
             // Simulate some time-consuming operation
             Console.WriteLine("Performing operation...");
-            Thread.Sleep(6000); // Simulating a 6-second operation
+            Thread.Sleep(3000); // Simulating a 3-second operation
 
             // Stop the stopwatch
             TimeSpan duration = stopwatch.Stop();
             Console.WriteLine("Stopwatch stopped. Duration: " + duration);
 
-            Console.ReadLine();
+            //Inheritance + constructors
+            var inheritanceConstructorEx1 = new InheritanceWithContstructor2("A1802");
+           
+
         }
 
     }
