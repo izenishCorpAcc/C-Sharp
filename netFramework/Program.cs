@@ -131,6 +131,7 @@ namespace netFramework
             Console.WriteLine("Stopwatch stopped. Duration: " + duration);
 
             //Inheritance + constructors
+            //base constructor is always called first
             var inheritanceConstructorEx1 = new InheritanceWithContstructor2("A1802");
            
 
