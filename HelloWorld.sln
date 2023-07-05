@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netFramework", "netFramework\netFramework.csproj", "{2A2E6F80-C3BB-4AD5-B2AC-DA4F5649DFF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp", "temp\temp.csproj", "{456C97C0-9733-459D-A5CC-976DB99740EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temp", "temp\temp.csproj", "{456C97C0-9733-459D-A5CC-976DB99740EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methodOverloadin", "methodOverloadin\methodOverloadin.csproj", "{323E1DBA-D821-495F-B5B4-C7156564DD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{456C97C0-9733-459D-A5CC-976DB99740EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456C97C0-9733-459D-A5CC-976DB99740EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456C97C0-9733-459D-A5CC-976DB99740EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
