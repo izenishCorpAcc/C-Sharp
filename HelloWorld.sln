@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temp", "temp\temp.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methodOverloadin", "methodOverloadin\methodOverloadin.csproj", "{323E1DBA-D821-495F-B5B4-C7156564DD5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{8491CAFD-32C1-44B9-8330-DA9351D322EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{323E1DBA-D821-495F-B5B4-C7156564DD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8491CAFD-32C1-44B9-8330-DA9351D322EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8491CAFD-32C1-44B9-8330-DA9351D322EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8491CAFD-32C1-44B9-8330-DA9351D322EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8491CAFD-32C1-44B9-8330-DA9351D322EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

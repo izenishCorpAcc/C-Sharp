@@ -55,7 +55,7 @@ namespace netFramework
 
             //   Exercise_43.Check(2);
             //   Exercise_43.maxnum(289, 99);
-            //   Exercise_43.speedLimit(50, 160);
+            //Exercise_43.speedLimit(50, 60);
 
             //   @string.StringOperations();
             //   //Exercise_68.assignment();
