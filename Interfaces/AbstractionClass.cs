@@ -10,6 +10,7 @@ namespace Interfaces
     {
         public static void PrintShapeDetails(IShape objects)
         {
+            Console.WriteLine($"Shape Name:{objects.ToString()}");
             Console.WriteLine($"Area using Abstraction:{objects.calcArea()}");
             Console.WriteLine($"Perimeter Using Abstraction:{objects.calcPerimeter()}");
         }
