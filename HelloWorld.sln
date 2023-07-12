@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Class", "Generic Class\Generic Class.csproj", "{6DC755B5-6AF1-4E82-987E-F1B7E1356041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{D31B892C-BD40-4303-B4DC-CB31E555A19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaEx", "LambdaEx\LambdaEx.csproj", "{6808829F-F574-494C-B29B-3E59990718A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{6DC755B5-6AF1-4E82-987E-F1B7E1356041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC755B5-6AF1-4E82-987E-F1B7E1356041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC755B5-6AF1-4E82-987E-F1B7E1356041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31B892C-BD40-4303-B4DC-CB31E555A19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31B892C-BD40-4303-B4DC-CB31E555A19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31B892C-BD40-4303-B4DC-CB31E555A19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31B892C-BD40-4303-B4DC-CB31E555A19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6808829F-F574-494C-B29B-3E59990718A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6808829F-F574-494C-B29B-3E59990718A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6808829F-F574-494C-B29B-3E59990718A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6808829F-F574-494C-B29B-3E59990718A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
