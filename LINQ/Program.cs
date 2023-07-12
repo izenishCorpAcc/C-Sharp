@@ -39,6 +39,22 @@ namespace LINQ
             //if we only want one single record
             var _singleOutput = lister.SingleOrDefault(x => x.Title == "Harry Potter4");
             Console.WriteLine($"We found :{_singleOutput.Title}");
+
+
+            //Some other fun
+            //lister.Where();
+            //lister.Single();
+            //lister.SingleOrDefault();
+            //lister.First();
+            //lister.FirstOrDefault();
+            //lister.Last();
+            //lister.LastOrDefault();
+            //lister.Min();
+            //lister.Max();
+            //lister.Count();
+            //lister.Sum();
+            //lister.Average();
+            lister.Skip(1).Take(3);
         }
     }
 }
