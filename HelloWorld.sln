@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaEx", "LambdaEx\LambdaEx.csproj", "{6808829F-F574-494C-B29B-3E59990718A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{8520A77B-1976-432B-9683-279FF06A2365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6808829F-F574-494C-B29B-3E59990718A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6808829F-F574-494C-B29B-3E59990718A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6808829F-F574-494C-B29B-3E59990718A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8520A77B-1976-432B-9683-279FF06A2365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8520A77B-1976-432B-9683-279FF06A2365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8520A77B-1976-432B-9683-279FF06A2365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8520A77B-1976-432B-9683-279FF06A2365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
