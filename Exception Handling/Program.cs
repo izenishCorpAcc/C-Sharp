@@ -11,18 +11,29 @@ namespace Exception_Handling
     {
         static void Main(string[] args)
         {
-            
+
             dynamic numerator = 29;
             dynamic denom = 10;
-            var streamReader = new StreamReader(@"C:\Users\jenish.prajapati\OneDrive - Cotiviti\Desktop\layout.txt");
+
+
+           StreamReader streamReader = null;
 
             try
             {
-                dynamic di = numerator / denom;
-                Console.WriteLine(di);
-                
-                var content=streamReader.ReadToEnd();
-                //Console.WriteLine(content);
+
+                streamReader = new StreamReader(@"C:\Users\jenish.prajapati\OneDrive - Cotiviti\Desktop\layout.txt");
+                //dynamic di = numerator / denom;
+                //dynamic di = numerator / denom;
+
+                //Console.WriteLine(di);
+
+                var content = streamReader.ReadToEnd();
+                Console.WriteLine(content);
+                //We can alternatively use using so that the compile will generate a finally clause under the hood
+                //using(var streamReader=new StreamReader(@"C:\Users\jenish.prajapati\OneDrive - Cotiviti\Desktop\layout.txt")) 
+                //{
+                //    var content= streamReader.ReadToEnd();
+                //}
 
             }
             catch (DivideByZeroException ex)    //order of catch statements maters
@@ -37,14 +48,15 @@ namespace Exception_Handling
 
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.Message);
+                Console.WriteLine("SORRY AND EXCEPTION OCCOURED!");
                 //Console.WriteLine("Can't divide by 0");
             }
             finally
             {
                 streamReader.Dispose();
             }
-            
+
         }
     }
 }
