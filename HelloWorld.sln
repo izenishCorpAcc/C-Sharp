@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaEx", "LambdaEx\Lambda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{8520A77B-1976-432B-9683-279FF06A2365}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception Handling", "Exception Handling\Exception Handling.csproj", "{953C9CB4-AC03-474E-AAA5-99EF5FE90EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8520A77B-1976-432B-9683-279FF06A2365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8520A77B-1976-432B-9683-279FF06A2365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8520A77B-1976-432B-9683-279FF06A2365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953C9CB4-AC03-474E-AAA5-99EF5FE90EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953C9CB4-AC03-474E-AAA5-99EF5FE90EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953C9CB4-AC03-474E-AAA5-99EF5FE90EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953C9CB4-AC03-474E-AAA5-99EF5FE90EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
